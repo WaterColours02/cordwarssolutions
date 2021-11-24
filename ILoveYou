@@ -1,0 +1,5 @@
+function howMuchILoveYou(nbPetals) {
+    const howMuchILoveYouPhrase = ['not at all', 'I love you', 'a little', 'a lot', 'passionately', 'madly']
+    let phraseNumber = nbPetals % 6; 
+    return howMuchILoveYouPhrase[phraseNumber]
+}
