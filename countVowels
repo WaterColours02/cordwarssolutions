@@ -1,0 +1,9 @@
+function getCount(input) {
+  var vowelsCount = 0;
+  for (let i = 0; input[i]; i++) { if (input[i] === 'a' || input[i] === 'e' || input[i] === 'i' || input[i] === 'o' ||input[i] === 'u') {
+    vowelsCount ++
+   }
+  }
+  
+  return vowelsCount;
+}
